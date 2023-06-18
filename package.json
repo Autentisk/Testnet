@@ -1,0 +1,23 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "frontend:start": "yarn workspace @application/frontend start",
+    "start": "yarn workspace @application/frontend start",
+    "chain": "yarn workspace @application/hardhat chain",
+    "node": "yarn workspace @application/hardhat chain",
+    "deploy": "yarn workspace @application/hardhat deploy",
+    "demo": "yarn workspace @application/hardhat demo"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "packageManager": "yarn@3.5.0",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "rlp": "^3.0.0"
+  }
+}
