@@ -5,8 +5,11 @@
   "scripts": {
     "chain": "hardhat node --network hardhat --no-deploy",
     "test": "npx hardhat test",
-    "deploy": "hardhat run ./deploy/deploySystem.ts --network localhost",
-    "demo": "hardhat run ./scripts/purchase.ts --network localhost"
+    "deploy": "hardhat run ./deploy/deploySystem.ts --network sepolia",
+    "purchase": "hardhat run scripts/purchase.ts --network sepolia",
+    "sell": "hardhat run ./scripts/sell.ts --network sepolia",
+    "review": "hardhat run ./scripts/review.ts --network sepolia",
+    "burn": "hardhat run ./scripts/burn.ts --network sepolia"
   },
   "keywords": [],
   "author": "",

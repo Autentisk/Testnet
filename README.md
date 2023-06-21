@@ -17,8 +17,7 @@ yarn install
 2. Calculate your SystemManager address
 Run the computeFutureAddress.py script and input your address and nonce
 
-3. Change
-Place the address of your SystemManager in DigitalCopy contract
+3. Place the address of your SystemManager in DigitalCopy contract
 
 4. Create .env file
 Create an .env file and input these variables with your own addresses:

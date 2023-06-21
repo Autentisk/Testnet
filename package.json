@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "frontend:start": "yarn workspace @application/frontend start",
-    "start": "yarn workspace @application/frontend start",
     "chain": "yarn workspace @application/hardhat chain",
     "node": "yarn workspace @application/hardhat chain",
     "deploy": "yarn workspace @application/hardhat deploy",
-    "demo": "yarn workspace @application/hardhat demo"
+    "scenario1": "yarn workspace @application/hardhat purchase",
+    "scenario2": "yarn workspace @application/hardhat sell",
+    "scenario3": "yarn workspace @application/hardhat review",
+    "scenario4": "yarn workspace @application/hardhat burn",
+    "purchase": "yarn workspace @application/hardhat purchase",
+    "sell": "yarn workspace @application/hardhat sell",
+    "review": "yarn workspace @application/hardhat review",
+    "burn": "yarn workspace @application/hardhat burn"
   },
   "workspaces": {
     "packages": [
